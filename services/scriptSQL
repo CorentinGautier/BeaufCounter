@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS joke (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(100),
+  text VARCHAR(100),
+  date DATE,
+  author VARCHAR(100)
+);

@@ -1,8 +1,9 @@
 class Joke {
-    constructor(author, text) {
+    constructor(author, text, name) {
         this.date = new Date();
         this.author = author;
         this.text = text;
+        this.name = name;
         this.date = afficheDate()
     }
 }
